@@ -1,0 +1,91 @@
+﻿body {
+    color: #000000;
+    background-color: #FFFFFF;
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+    margin: 5pt;
+    border-style: solid;
+    border-color: black;
+}
+
+header {
+    padding-left: 250px;
+    background-image: url(../images/przlogo.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+    header h1 {
+        font-family: Garamond, serif;
+        font-size: 2em;
+        font-style: bold;
+    }
+
+    header h2 {
+        font-family: Garamond, serif;
+        font-size: 1.6em;
+        font-style: italic;
+        text-align: center;
+    }
+
+nav {
+    font-family: Gil, Sans, "arial", Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    nav li {
+        display: inline;
+        padding-top: .2em;
+        padding-bottom: .2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-left: solid;
+        border-color: #084048;
+    }
+
+section {
+    padding: 20px;
+    background-image: url(../images/prz_watermark.gif);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+    section h1 {
+        font-size: 1.5em;
+        font-family: Gil Sans, "arial", Helvetica, sans-serif;
+    }
+
+    section h2 {
+        font-size: 1.3em;
+        font-family: Gil Sans, "arial", Helvetica, sans-serif;
+    }
+
+    section h3 {
+        font-size: 1.1em;
+        font-family: Gil Sans, "arial", Helvetica, sans-serif;
+    }
+
+footer {
+    background-color: #A1D1D1;
+    padding: 15px;
+}
+
+    footer p {
+        font-size: 0.8em;
+        font-style: bold;
+        text-align: center;
+    }
+
+#clientNav {
+    border-color: black;
+    border-style: dotted;
+    background-color: #D7EAE4;
+    font: 0.7em/1.1em Arial, Helvetica, sans-serif;
+}
+
+    #clientNav li {
+        display: inline;
+    }
